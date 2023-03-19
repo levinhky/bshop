@@ -1,0 +1,93 @@
+.box__famoust-brand {
+  width: 1377px;
+  margin: 100px auto 60px;
+  padding: 0 45px;
+}
+
+.box__famoust-brand .info {
+  width: 300px;
+}
+
+.box__famoust-brand .info .title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 38px;
+  color: #000000;
+}
+
+.box__famoust-brand .info .description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+
+.box__famoust-brand .info .view-all {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #4e6fb0;
+}
+
+.box__famoust-brand .brands {
+  max-width: 100%;
+  overflow: auto;
+  width: 833px;
+}
+
+.box__famoust-brand .brands::-webkit-scrollbar {
+  display: none;
+}
+
+.box__famoust-brand .brand__listing .brand-carousel {
+  display: flex;
+  width: max-content;
+}
+
+.box__famoust-brand .brand__listing .brand-carousel .brand {
+  width: 182px;
+  /* margin-right: 35px; */
+}
+
+.box__famoust-brand .brand__listing .brand-carousel .brand:nth-child(2) {
+  transform: translateX(35px);
+}
+.box__famoust-brand .brand__listing .brand-carousel .brand:nth-child(3) {
+  transform: translateX(70px);
+}
+.box__famoust-brand .brand__listing .brand-carousel .brand:nth-child(4) {
+  transform: translateX(105px);
+}
+.box__famoust-brand .brand__listing .brand-carousel .brand:nth-child(1n + 5) {
+  transform: translateX(105px);
+}
+
+.box__famoust-brand .brand__listing .brand-carousel .brand:last-child {
+  margin-right: 0;
+}
+
+.box__famoust-brand .brand__listing .brand-carousel .brand .image img {
+  border-radius: 10px;
+  width: 100%;
+}
+
+.box__famoust-brand .brand__listing .arrow-slider .arrow--left,
+.box__famoust-brand .brand__listing .arrow-slider .arrow--right {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  background: #b7c2cb;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.box__famoust-brand .brand__listing .arrow-slider .arrow--left {
+  left: -55px;
+}
+
+.box__famoust-brand .brand__listing .arrow-slider .arrow--right {
+  right: -55px;
+}
