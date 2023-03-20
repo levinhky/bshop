@@ -1,9 +1,3 @@
-.famoust-brand-wrapper {
-  width: 1440px;
-  margin: 0 auto;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-}
-
 @font-face {
   font-family: 'SF Pro Display';
   src: url('../fonts/SF\ Pro/.SF-Pro-Display-Black.otf.icloud'),
@@ -25,10 +19,15 @@
   url('../fonts/SF\ Pro/.SF-Pro-Display-Semibold.otf.icloud');
 }
 
+body {
+  font-family: 'SF Pro Display';
+}
+
 .box__famoust-brand {
-  width: 1377px;
+  max-width: 1440px;
   margin: 100px auto 60px;
-  padding: 0 96px 0 45px  ;
+  padding: 0 96px 0 45px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .box__famoust-brand .info {
