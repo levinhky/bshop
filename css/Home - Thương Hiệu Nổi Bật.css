@@ -25,9 +25,8 @@ body {
 
 .box__famoust-brand {
   max-width: 1440px;
-  margin: 100px auto 60px;
-  padding: 0 96px 0 45px;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  margin: 100px auto 0;
+  padding: 0 96px 0 58px;
 }
 
 .box__famoust-brand .info {

@@ -27,7 +27,6 @@ body {
   max-width: 1440px;
   margin: 55px auto 37px;
   padding: 0px 58px;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .product__listing-by-category .header > h3 {
