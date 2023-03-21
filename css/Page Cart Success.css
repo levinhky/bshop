@@ -1,22 +1,14 @@
 @font-face {
   font-family: "SF Pro Display";
-  src: url("../fonts/SF\ Pro/.SF-Pro-Display-Black.otf.icloud"),
-    url("../fonts/SF\ Pro/.SF-Pro-Display-Bold.otf.icloud"),
-    url("../fonts/SF\ Pro/.SF-Pro-Display-BoldItalic.otf.icloud"),
-    url("../fonts/SF\ Pro/.SF-Pro-Display-HeavyItalic.otf.icloud"),
-    url("../fonts/SF\ Pro/.SF-Pro-Display-LightItalic.otf.icloud"),
-    url("../fonts/SF\ Pro/.SF-Pro-Display-Medium.otf.icloud"),
-    url("../fonts/SF\ Pro/.SF-Pro-Display-MediumItalic.otf.icloud"),
-    url("../fonts/SF\ Pro/.SF-Pro-Display-RegularItalic.otf.icloud"),
-    url("../fonts/SF\ Pro/.SF-Pro-Display-BlackItalic.otf.icloud"),
-    url("../fonts/SF\ Pro/.SF-Pro-Display-Light.otf.icloud"),
-    url("../fonts/SF\ Pro/.SF-Pro-Display-Regular.otf.icloud"),
-    url("../fonts/SF\ Pro/.SF-Pro-Display-SemiboldItalic.otf.icloud"),
-    url("../fonts/SF\ Pro/.SF-Pro-Display-Thin.otf.icloud"),
-    url("../fonts/SF\ Pro/.SF-Pro-Display-ThinItalic.otf.icloud"),
-    url("../fonts/SF\ Pro/.SF-Pro-Display-Ultralight.otf.icloud"),
-    url("../fonts/SF\ Pro/.SF-Pro-Display-UltralightItalic.otf.icloud"),
-    url("../fonts/SF\ Pro/.SF-Pro-Display-Semibold.otf.icloud");
+  src: 
+    url("./fonts/SFPro/SF-Pro-Display-BlackItalic.otf"),
+    url("./fonts/SFPro/SF-Pro-Display-Light.otf"),
+    url("./fonts/SFPro/SF-Pro-Display-Regular.otf"),
+    url("./fonts/SFPro/SF-Pro-Display-SemiboldItalic.otf"),
+    url("./fonts/SFPro/SF-Pro-Display-Thin.otf"),
+    url("./fonts/SFPro/SF-Pro-Display-ThinItalic.otf"),
+    url("./fonts/SFPro/SF-Pro-Display-Ultralight.otf"),
+    url("./fonts/SFPro/SF-Pro-Display-UltralightItalic.otf"),
 }
 
 body {
@@ -108,6 +100,7 @@ body {
   border: 1px solid #000000;
   padding: 0 11px;
   height: 20px;
+  width: 111px;
   border-radius: 5px;
   text-align: center;
   margin-top: -10px;
@@ -354,6 +347,7 @@ body {
   border-radius: 10px;
   border: none;
   outline: none;
+  width: 350px;
   font-weight: 600;
   font-size: 16px;
   line-height: 19px;
@@ -369,4 +363,37 @@ body {
 .box-cart-success-container.end-page > .buttons > .discover-boshop {
   background-color: #362962;
   text-transform: uppercase;
+}
+
+.tooltiptext {
+  visibility: hidden;
+  width: 150px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -75px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltiptext.show {
+  visibility: visible;
+  opacity: 1;
 }

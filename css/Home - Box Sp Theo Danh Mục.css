@@ -1,22 +1,22 @@
 @font-face {
   font-family: 'SF Pro Display';
-  src: url('../fonts/SF\ Pro/.SF-Pro-Display-Black.otf.icloud'),
-  url('../fonts/SF\ Pro/.SF-Pro-Display-Bold.otf.icloud'),
-  url('../fonts/SF\ Pro/.SF-Pro-Display-BoldItalic.otf.icloud'),
-  url('../fonts/SF\ Pro/.SF-Pro-Display-HeavyItalic.otf.icloud'),
-  url('../fonts/SF\ Pro/.SF-Pro-Display-LightItalic.otf.icloud'),
-  url('../fonts/SF\ Pro/.SF-Pro-Display-Medium.otf.icloud'),
-  url('../fonts/SF\ Pro/.SF-Pro-Display-MediumItalic.otf.icloud'),
-  url('../fonts/SF\ Pro/.SF-Pro-Display-RegularItalic.otf.icloud'),
-  url('../fonts/SF\ Pro/.SF-Pro-Display-BlackItalic.otf.icloud'),
-  url('../fonts/SF\ Pro/.SF-Pro-Display-Light.otf.icloud'),
-  url('../fonts/SF\ Pro/.SF-Pro-Display-Regular.otf.icloud'),
-  url('../fonts/SF\ Pro/.SF-Pro-Display-SemiboldItalic.otf.icloud'),
-  url('../fonts/SF\ Pro/.SF-Pro-Display-Thin.otf.icloud'),
-  url('../fonts/SF\ Pro/.SF-Pro-Display-ThinItalic.otf.icloud'),
-  url('../fonts/SF\ Pro/.SF-Pro-Display-Ultralight.otf.icloud'),
-  url('../fonts/SF\ Pro/.SF-Pro-Display-UltralightItalic.otf.icloud'),
-  url('../fonts/SF\ Pro/.SF-Pro-Display-Semibold.otf.icloud');
+  src: url('./fonts/SF\ Pro/.SF-Pro-Display-Black.otf.icloud'),
+  url('./fonts/SF\ Pro/.SF-Pro-Display-Bold.otf.icloud'),
+  url('./fonts/SF\ Pro/.SF-Pro-Display-BoldItalic.otf.icloud'),
+  url('./fonts/SF\ Pro/.SF-Pro-Display-HeavyItalic.otf.icloud'),
+  url('./fonts/SF\ Pro/.SF-Pro-Display-LightItalic.otf.icloud'),
+  url('./fonts/SF\ Pro/.SF-Pro-Display-Medium.otf.icloud'),
+  url('./fonts/SF\ Pro/.SF-Pro-Display-MediumItalic.otf.icloud'),
+  url('./fonts/SF\ Pro/.SF-Pro-Display-RegularItalic.otf.icloud'),
+  url('./fonts/SF\ Pro/.SF-Pro-Display-BlackItalic.otf.icloud'),
+  url('./fonts/SF\ Pro/.SF-Pro-Display-Light.otf.icloud'),
+  url('./fonts/SF\ Pro/.SF-Pro-Display-Regular.otf.icloud'),
+  url('./fonts/SF\ Pro/.SF-Pro-Display-SemiboldItalic.otf.icloud'),
+  url('./fonts/SF\ Pro/.SF-Pro-Display-Thin.otf.icloud'),
+  url('./fonts/SF\ Pro/.SF-Pro-Display-ThinItalic.otf.icloud'),
+  url('./fonts/SF\ Pro/.SF-Pro-Display-Ultralight.otf.icloud'),
+  url('./fonts/SF\ Pro/.SF-Pro-Display-UltralightItalic.otf.icloud'),
+  url('./fonts/SF\ Pro/.SF-Pro-Display-Semibold.otf.icloud');
 }
 
 body {
