@@ -1,0 +1,95 @@
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("../fonts/SF\ Pro/.SF-Pro-Display-Black.otf.icloud"),
+    url("../fonts/SF\ Pro/.SF-Pro-Display-Bold.otf.icloud"),
+    url("../fonts/SF\ Pro/.SF-Pro-Display-BoldItalic.otf.icloud"),
+    url("../fonts/SF\ Pro/.SF-Pro-Display-HeavyItalic.otf.icloud"),
+    url("../fonts/SF\ Pro/.SF-Pro-Display-LightItalic.otf.icloud"),
+    url("../fonts/SF\ Pro/.SF-Pro-Display-Medium.otf.icloud"),
+    url("../fonts/SF\ Pro/.SF-Pro-Display-MediumItalic.otf.icloud"),
+    url("../fonts/SF\ Pro/.SF-Pro-Display-RegularItalic.otf.icloud"),
+    url("../fonts/SF\ Pro/.SF-Pro-Display-BlackItalic.otf.icloud"),
+    url("../fonts/SF\ Pro/.SF-Pro-Display-Light.otf.icloud"),
+    url("../fonts/SF\ Pro/.SF-Pro-Display-Regular.otf.icloud"),
+    url("../fonts/SF\ Pro/.SF-Pro-Display-SemiboldItalic.otf.icloud"),
+    url("../fonts/SF\ Pro/.SF-Pro-Display-Thin.otf.icloud"),
+    url("../fonts/SF\ Pro/.SF-Pro-Display-ThinItalic.otf.icloud"),
+    url("../fonts/SF\ Pro/.SF-Pro-Display-Ultralight.otf.icloud"),
+    url("../fonts/SF\ Pro/.SF-Pro-Display-UltralightItalic.otf.icloud"),
+    url("../fonts/SF\ Pro/.SF-Pro-Display-Semibold.otf.icloud");
+}
+
+body {
+  font-family: "SF Pro Display";
+}
+.fw-500 {
+  font-weight: 500 !important;
+}
+
+.box-cart-success-wrapper {
+  max-width: 1440px;
+  margin: 56px auto 36px;
+}
+
+.box-cart-success-container {
+  max-width: 807px;
+  margin: 0 auto;
+}
+
+.box-cart-success-container .main-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 33px;
+  text-align: center;
+  color: #000000;
+}
+
+.box-cart-success-container .headline .long-desc,
+.box-cart-success-container .headline .short-desc {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #000000;
+}
+
+.box-cart-success-container .headline .short-desc {
+  line-height: 19px;
+  margin: 45px 0 16px;
+}
+
+.box-cart-success-container .headline .long-desc > p {
+  line-height: 26px;
+  margin-bottom: 0;
+}
+
+.box-cart-success-container.banking-info {
+  margin-top: 56px;
+}
+
+.box-cart-success-container.banking-info .banking-method {
+  margin-top: 45px;
+}
+
+.box-cart-success-container.banking-info .banking-method .step-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 12px;
+}
+
+.box-cart-success-container.banking-info .banking-method .manual-banking,
+.box-cart-success-container.banking-info .banking-method .qr-banking {
+  border: 1px solid #d9d9d9;
+  border-radius: 10px;
+}
+
+.box-cart-success-container.banking-info .banking-method .qr-banking {
+  width: 313px;
+  padding: 15px 36px;
+}
+
+.box-cart-success-container.banking-info .banking-method .manual-banking {
+  flex-grow: 1;
+  padding: 17px 17px 95px 17px;
+  margin-left: 16px;
+}
