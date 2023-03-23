@@ -6,6 +6,7 @@
   background-color: #e26b14;
   height: 51px;
   padding: 10px;
+  border-radius: 10px 10px 0px 0px;
 }
 
 .box-hot-deal-header > .left .title {
