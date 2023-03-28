@@ -1,26 +1,26 @@
 @font-face {
-  font-family: 'SF Pro Display';
-  src: url('./fonts/SF\ Pro/.SF-Pro-Display-Black.otf.icloud'),
-  url('./fonts/SF\ Pro/.SF-Pro-Display-Bold.otf.icloud'),
-  url('./fonts/SF\ Pro/.SF-Pro-Display-BoldItalic.otf.icloud'),
-  url('./fonts/SF\ Pro/.SF-Pro-Display-HeavyItalic.otf.icloud'),
-  url('./fonts/SF\ Pro/.SF-Pro-Display-LightItalic.otf.icloud'),
-  url('./fonts/SF\ Pro/.SF-Pro-Display-Medium.otf.icloud'),
-  url('./fonts/SF\ Pro/.SF-Pro-Display-MediumItalic.otf.icloud'),
-  url('./fonts/SF\ Pro/.SF-Pro-Display-RegularItalic.otf.icloud'),
-  url('./fonts/SF\ Pro/.SF-Pro-Display-BlackItalic.otf.icloud'),
-  url('./fonts/SF\ Pro/.SF-Pro-Display-Light.otf.icloud'),
-  url('./fonts/SF\ Pro/.SF-Pro-Display-Regular.otf.icloud'),
-  url('./fonts/SF\ Pro/.SF-Pro-Display-SemiboldItalic.otf.icloud'),
-  url('./fonts/SF\ Pro/.SF-Pro-Display-Thin.otf.icloud'),
-  url('./fonts/SF\ Pro/.SF-Pro-Display-ThinItalic.otf.icloud'),
-  url('./fonts/SF\ Pro/.SF-Pro-Display-Ultralight.otf.icloud'),
-  url('./fonts/SF\ Pro/.SF-Pro-Display-UltralightItalic.otf.icloud'),
-  url('./fonts/SF\ Pro/.SF-Pro-Display-Semibold.otf.icloud');
+  font-family: "SF Pro Display";
+  src: url("./fonts/SF\ Pro/.SF-Pro-Display-Black.otf.icloud"),
+    url("./fonts/SF\ Pro/.SF-Pro-Display-Bold.otf.icloud"),
+    url("./fonts/SF\ Pro/.SF-Pro-Display-BoldItalic.otf.icloud"),
+    url("./fonts/SF\ Pro/.SF-Pro-Display-HeavyItalic.otf.icloud"),
+    url("./fonts/SF\ Pro/.SF-Pro-Display-LightItalic.otf.icloud"),
+    url("./fonts/SF\ Pro/.SF-Pro-Display-Medium.otf.icloud"),
+    url("./fonts/SF\ Pro/.SF-Pro-Display-MediumItalic.otf.icloud"),
+    url("./fonts/SF\ Pro/.SF-Pro-Display-RegularItalic.otf.icloud"),
+    url("./fonts/SF\ Pro/.SF-Pro-Display-BlackItalic.otf.icloud"),
+    url("./fonts/SF\ Pro/.SF-Pro-Display-Light.otf.icloud"),
+    url("./fonts/SF\ Pro/.SF-Pro-Display-Regular.otf.icloud"),
+    url("./fonts/SF\ Pro/.SF-Pro-Display-SemiboldItalic.otf.icloud"),
+    url("./fonts/SF\ Pro/.SF-Pro-Display-Thin.otf.icloud"),
+    url("./fonts/SF\ Pro/.SF-Pro-Display-ThinItalic.otf.icloud"),
+    url("./fonts/SF\ Pro/.SF-Pro-Display-Ultralight.otf.icloud"),
+    url("./fonts/SF\ Pro/.SF-Pro-Display-UltralightItalic.otf.icloud"),
+    url("./fonts/SF\ Pro/.SF-Pro-Display-Semibold.otf.icloud");
 }
 
 body {
-  font-family: 'SF Pro Display';
+  font-family: "SF Pro Display";
 }
 
 .box__famoust-brand {
@@ -57,39 +57,15 @@ body {
 
 .box__famoust-brand .brands {
   max-width: 100%;
-  overflow: auto;
   width: 833px;
-}
-
-.box__famoust-brand .brands::-webkit-scrollbar {
-  display: none;
 }
 
 .box__famoust-brand .brand__listing .brand-carousel {
   display: flex;
-  width: max-content;
 }
 
 .box__famoust-brand .brand__listing .brand-carousel .brand {
   width: 182px;
-  /* margin-right: 35px; */
-}
-
-.box__famoust-brand .brand__listing .brand-carousel .brand:nth-child(2) {
-  transform: translateX(35px);
-}
-.box__famoust-brand .brand__listing .brand-carousel .brand:nth-child(3) {
-  transform: translateX(70px);
-}
-.box__famoust-brand .brand__listing .brand-carousel .brand:nth-child(4) {
-  transform: translateX(105px);
-}
-.box__famoust-brand .brand__listing .brand-carousel .brand:nth-child(1n + 5) {
-  transform: translateX(105px);
-}
-
-.box__famoust-brand .brand__listing .brand-carousel .brand:last-child {
-  margin-right: 0;
 }
 
 .box__famoust-brand .brand__listing .brand-carousel .brand .image img {
@@ -97,8 +73,7 @@ body {
   width: 100%;
 }
 
-.box__famoust-brand .brand__listing .arrow-slider .arrow--left,
-.box__famoust-brand .brand__listing .arrow-slider .arrow--right {
+.box__famoust-brand .brand__listing .owl-nav button {
   position: absolute;
   width: 48px;
   height: 48px;
@@ -109,10 +84,10 @@ body {
   cursor: pointer;
 }
 
-.box__famoust-brand .brand__listing .arrow-slider .arrow--left {
-  left: -55px;
+.box__famoust-brand .brand__listing .owl-nav .owl-prev {
+  left: -50px;
 }
 
-.box__famoust-brand .brand__listing .arrow-slider .arrow--right {
-  right: -55px;
+.box__famoust-brand .brand__listing .owl-nav .owl-next {
+  right: -50px;
 }
