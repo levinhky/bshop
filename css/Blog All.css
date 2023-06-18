@@ -1,17 +1,17 @@
-.block-all .wrapper {
+.blog-all .wrapper {
   margin: 0 auto;
   padding: 0px 45px;
 }
 
-.block-all .wrapper img {
+.blog-all .wrapper img {
   cursor: pointer;
 }
 
-.block-all .wrapper .form-search {
+.blog-all .wrapper .form-search {
   margin: 24px 0px 40px 0px;
 }
 
-.block-all .wrapper .form-search input {
+.blog-all .wrapper .form-search input {
   width: 675px;
   border: 1px solid #d85186;
   border-radius: 15px;
@@ -22,7 +22,7 @@
   line-height: 14px;
 }
 
-.block-all .wrapper .form-search #icon {
+.blog-all .wrapper .form-search #icon {
   position: absolute;
   top: 40%;
   transform: translateY(-50%);
@@ -30,12 +30,12 @@
   cursor: pointer;
 }
 
-.block-all .wrapper .header {
+.blog-all .wrapper .header {
   grid-template-columns: repeat(2, 1fr);
   gap: 75px;
 }
 
-.block-all .wrapper .header .main-title {
+.blog-all .wrapper .header .main-title {
   font-weight: 600;
   font-size: 36px;
   line-height: 28px;
@@ -43,7 +43,7 @@
   margin-bottom: 20px;
 }
 
-.block-all .wrapper .post-title {
+.blog-all .wrapper .post-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
@@ -52,7 +52,7 @@
   cursor: pointer;
 }
 
-.block-all .wrapper .post-note {
+.blog-all .wrapper .post-note {
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
@@ -61,7 +61,7 @@
   display: block;
 }
 
-.block-all .wrapper .post-desc {
+.blog-all .wrapper .post-desc {
   font-weight: 500;
   font-size: 14px;
   line-height: 30px;
@@ -73,16 +73,16 @@
   text-overflow: ellipsis;
 }
 
-.block-all .wrapper .header .most-viewed-post .posts .post .info {
+.blog-all .wrapper .header .most-viewed-post .posts .post .info {
   margin-left: 27px;
 }
 
-.block-all .wrapper .header .most-viewed-post .posts .post:not(:last-child) {
+.blog-all .wrapper .header .most-viewed-post .posts .post:not(:last-child) {
   margin-bottom: 21px;
 }
 
-.block-all .wrapper .header .most-viewed-post,
-.block-all .wrapper .header .featured-post {
+.blog-all .wrapper .header .most-viewed-post,
+.blog-all .wrapper .header .featured-post {
   width: 50%;
 }
 
@@ -103,14 +103,14 @@
   background: #fff !important;
 }
 
-.block-all .wrapper .products {
+.blog-all .wrapper .products {
   padding: 25px;
   background: #fff1f2;
   border-radius: 10px;
   margin-top: 24px;
 }
 
-.block-all .wrapper .products .title {
+.blog-all .wrapper .products .title {
   font-weight: 600;
   font-size: 28px;
   line-height: 28px;
@@ -118,11 +118,11 @@
   margin-bottom: 25px;
 }
 
-.block-all .wrapper .products #blog-products-carousel img {
+.blog-all .wrapper .products #blog-products-carousel img {
   cursor: pointer;
 }
 
-.block-all .wrapper #blog-products-carousel-wrapper {
+.blog-all .wrapper #blog-products-carousel-wrapper {
   padding: 0 70px;
 }
 
@@ -148,7 +148,7 @@
   left: -55px;
 }
 
-.block-all .wrapper .new-post-title {
+.blog-all .wrapper .new-post-title {
   background: #fc8d93;
   border-radius: 10px;
   padding: 18px 35px;
@@ -159,12 +159,12 @@
   color: #ffffff;
 }
 
-.block-all .wrapper .new-post-list {
+.blog-all .wrapper .new-post-list {
   grid-template-columns: repeat(3, 1fr);
   gap: 16px;
 }
 
-.block-all .wrapper .button__see-more {
+.blog-all .wrapper .button__see-more {
   width: 136px;
   height: 26px;
   border: 1px solid #d65f1d;
@@ -180,27 +180,27 @@
   margin-top: 36px;
 }
 
-.block-all .wrapper .button__see-more:hover {
+.blog-all .wrapper .button__see-more:hover {
   background-color: #d65f1d;
   color: #fff;
 }
 
-.block-all .wrapper .button__see-more:hover > span svg path {
+.blog-all .wrapper .button__see-more:hover > span svg path {
   fill: #fff;
 }
 
-.block-all .wrapper .button__see-more span:first-child {
+.blog-all .wrapper .button__see-more span:first-child {
   margin-right: 4px;
 }
 
-.block-all .wrapper .featured-category {
+.blog-all .wrapper .featured-category {
   border: 1px solid #ebbdbd;
   border-radius: 20px;
   margin-top: 50px;
   padding: 20px 0px 10px 0px;
 }
 
-.block-all .wrapper .featured-category .title {
+.blog-all .wrapper .featured-category .title {
   font-weight: 600;
   font-size: 20px;
   line-height: 28px;
@@ -209,7 +209,7 @@
   margin-bottom: 25px;
 }
 
-.block-all .wrapper .featured-category .tags .tag {
+.blog-all .wrapper .featured-category .tags .tag {
   border: 1px solid #ebbdbd;
   border-radius: 10px;
   padding: 7px 15px;
@@ -220,7 +220,7 @@
   text-decoration: none;
 }
 
-.block-all .wrapper .featured-category .note {
+.blog-all .wrapper .featured-category .note {
   font-weight: 500;
   font-size: 16px;
   line-height: 28px;
