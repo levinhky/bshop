@@ -2,6 +2,9 @@ $("#blog-featured-post-carousel").owlCarousel({
   loop: true,
   margin: 50,
   items: 1,
+  autoplay:true,
+  autoplayTimeout:2000,
+  autoplayHoverPause:true,
 });
 
 $("#blog-products-carousel").owlCarousel({
@@ -14,4 +17,7 @@ $("#blog-products-carousel").owlCarousel({
   ],
   margin: 25,
   items: 3,
+  autoplay:true,
+  autoplayTimeout:2000,
+  autoplayHoverPause:true
 });
